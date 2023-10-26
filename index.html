@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cattober</title>
+  <link href="css/style.css?v=4" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav>
+    <img class="logo" src="images/IMG_6836.JPG" alt="logo">
+    <div>
+      <a href="https://nl.wikipedia.org/wiki/Bijgeloof"> Bijgeloof </a>
+      <a href="https://dromen.me/zwarte-kat/"> Symboliek zwarte kat </a>
+      <a href="https://nl.wikipedia.org/wiki/Halloween"> Halloween </a>
+      <a href="https://isgeschiedenis.nl/nieuws/oorsprong-van-halloween"> Oorsprong Halloween </a>
+      <a href="https://www.dierapotheker.nl/dierentips/14-leuke-kattenweetjes"> Katten weetjes </a>
+    </div>
+  </nav>
+  <header>
+    <h1>Cattober</h1>
+    <p>Zwarte katten zijn een klassiek Halloween-symbool, maar hoe ontstond hun speciale plek in de herfst? Zwarte
+      katten zijn lange tijd het voorwerp van bijgeloof geweest. In het middeleeuwse Frankrijk en Spanje werden
+      zwarte
+      katten beschouwd als brengers van ongeluk en vloeken voor elk mens dat ze in de buurt kwamen, en werden ze
+      geassocieerd met hekserij.
+      <br>
+      Gelukkig is in de tegenwoordige tijd dit bijgeloof bijna verdwenen en zijn zwarte
+      katten net zo populair als elke ander kat. Maar elke oktober maand zijn zwarte katten nog steeds het symbool
+      voor halloween.
+    </p>
+    <div>
+      <a href="#cattober-bezigheden"> Cattober bezigheden</a>
+      <a href="#form"> Form </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="subheading">
+      <h2 id="cattober-bezigheden"> Cattober bezigheden</h2>
+      <div class="cat-containers">
+        <article>
+          <img src="./images/IMG_7025.GIF" alt="Pumpkin carving">
+          <h3>Pompoen carven</h3>
+          <span class="stars">&starf; &starf; &starf; &starf; &starf;</span>
+          <p>Een pompoen carven is een populaire bezigheid in de oktober maand, helemaal richting halloween. Hopelijk
+            heb je een kleine vriend om hiermee te helpen.
+            <br>
+            Zie hier tips voor het pompoen carven.
+          </p>
+          <a href="https://www.milousmit.nl/blog/herfst/pompoenen-uithollen/" class="button default">Link</a>
+        </article>
+        <article>
+          <img src="./images/IMG_7023.GIF" alt="pirate cat">
+          <h3>Verkleedpartij</h3>
+          <span class="stars">&starf; &starf; &starf; &starf; &starf;</span>
+          <p> Wat is leuker dan op halloween verkleed te zijn samen met je kat. Een heks kan nou eenmaal niet zonder
+            haar trouwe metgezel.
+            <br>
+            Zie hier de top 10 beste halloween kostuums voor katten.
+          </p>
+          <a href="https://belcat.be/10-beste-halloween-kostuums-voor-katten-2022-beoordelingen-top-picks/"
+            class="button default">Link</a>
+        </article>
+        <article>
+          <img src="./images/IMG_7024.GIF" alt="Pumpkin cat">
+          <h3>Pumpkin pie</h3>
+          <span class="stars">&starf; &starf; &starf; &starf; &starf;</span>
+          <p>Nom nom, pompoen is lekker.
+            <br>
+            Zie hier een lekker recept voor pompoen taart om van te genieten terwijl je samen met je kat op de bank
+            onder een dekentje zit te kroelen.
+          </p>
+          <a href="https://www.laurasbakery.nl/pumpkin-pie-pompoentaart/" class="button default">Link</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <section class="form">
+    <h4 id="form">Form</h4>
+    <form>
+      <div>
+        <div class="row">
+          <label for="first-name">Voornaam</label>
+          <input type="text" name="first-name" id="first-name" placeholder="Voornaam" required />
+        </div>
+        <div class="row">
+          <label for="last-name">Achternaam</label>
+          <input type="text" name="last-name" id="last-name" placeholder="Achternaam" required />
+        </div>
+      </div>
+      <div class="column">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email" required />
+      </div>
+      <div>
+        <div class="row">
+          <label for="city">Woonplaats</label>
+          <input type="text" name="city" id="city" placeholder="Woonplaats" required />
+        </div>
+        <div class="row">
+          <label for="birthdate">Geboortedatum</label>
+          <input type="date" name="birthdate" id="birthdate" required />
+        </div>
+      </div>
+      <div class="column">
+        <label for="subject">Onderwerp</label>
+        <select id="subject" name="subject">
+          <option value="subject" disabled selected>Kies onderwerp van het bericht...</option>
+          <option value="Fill">Ik heb een aanvulling op boven genoemde informatie.</option>
+          <option value="Comment">Ik heb een opmerking over de bovenstaande content.</option>
+          <option value="Question">Ik heb een vraag over bovenstaand content.</option>
+          <option value="Other">Ik heb een andere reden een bericht te sturen.</option>
+        </select>
+        <label for="message">Bericht</label>
+        <textarea name="message" id="message"></textarea>
+        <span>Inschrijven voor nieuwbrief?</span>
+        <div class="radio">
+          <div class="buttons">
+            <input name="newsletter" id="yes" type="radio" value="yes" required />
+            <label for="yes">Ja</label>
+          </div>
+          <div class="buttons">
+            <input name="newsletter" id="no" type="radio" value="no" required />
+            <label for="no">Nee</label>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <input type="checkbox" id="terms" name="terms" value="terms" required>
+          <section class="form">
+            <label for="terms">Ik ga akkoord met de algemene voorwaarden</label>
+        </div>
+      </div>
+      <button type="submit">Versturen</button>
+    </form>
+  </section>
+  </main>
+
+
+  <footer> <a href="localhost"></a>
+    <img class="logo" src="images/IMG_6836.JPG" alt="logo">
+    </a>
+  </footer>
+  </div>
+</body>
+
+</html>
